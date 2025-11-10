@@ -29,7 +29,7 @@ namespace Extension.Test {
                 return;
             
             //Show foldOut
-            isFoldOut = EditorGUILayout.BeginFoldoutHeaderGroup(isFoldOut, "TestFunction");
+            isFoldOut = EditorGUILayout.BeginFoldoutHeaderGroup(isFoldOut, "TestMethods");
             if (!isFoldOut)
                 return;
             
